@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+ 
+ 
+<parameter name="checkboxEndPoint" value="checkboxes"/>  
+<parameter name="contextMenuEndPoint" value="context_menu"/>
+<parameter name="dragAndDrop" value="drag_and_drop"/>
+<parameter name="dropdown" value="dropdown"/>
+<parameter name="dynamicContent" value="dynamic_content"/>
+<parameter name="dynamicControl" value="dynamic_controls"/>
+<parameter name="dynamicLoading" value="dynamic_loading/2"/>
+<parameter name="download" value="download"/>
+<parameter name="upload" value="upload"/>
+<parameter name="floatingMenu" value="floating_menu"/>
+<parameter name="iframe" value="iframe"/>
+<parameter name="mousehovers" value="hovers"/>
+<parameter name="javaScriptAlerts" value="javascript_alerts"/>  
+<parameter name="javaScriptError" value="javascript_error"/>  
+<parameter name="windows" value="windows"/> 
+<parameter name="notification" value="notification_message_rendered"/> 
+  
+  
+  
+  
+  
+    <classes>
+    
+    <class name="Testcases.LoginSuccesfullTestcase"/>
+    <class name="Testcases.LoginFailureTestcases"/>
+    <class name="Testcases.CheckBoxTestcase"/>
+    <class name="Testcases.ContextMenuTestcase"/>
+    <class name="Testcases.DragAndDroptestcases"/>
+    <class name="Testcases.DropdownTestcase"/>
+    <class name="Testcases.DynamicContentTestcase"/>
+    <class name="Testcases.DynamicControlTestcase"/>
+    <class name="Testcases.DynamicLoadingTestcase"/>
+    <class name="Testcases.FileDownloadTestcase"/>
+    <class name="Testcases.FileUploadTestcase"/>
+    <class name="Testcases.FloatingMenuTestcase"/>
+    <class name="Testcases.IframeTestcase"/>
+    <class name="Testcases.JavaScriptAlertsTestcase"/>
+    <class name="Testcases.JavaScriptErrorTestcase"/>
+	<class name="Testcases.MouseHoversTestcase"/>
+	<class name="Testcases.NewWindowsTestcase"/>
+    <class name="Testcases.NotificationMessageTestcase"/>
+      
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

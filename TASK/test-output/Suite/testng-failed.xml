@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="floatingMenu" value="floating_menu"/>
+    <parameter name="upload" value="upload"/>
+    <parameter name="windows" value="windows"/>
+    <parameter name="dropdown" value="dropdown"/>
+    <parameter name="dragAndDrop" value="drag_and_drop"/>
+    <parameter name="notification" value="notification_message_rendered"/>
+    <parameter name="dynamicContent" value="dynamic_content"/>
+    <parameter name="download" value="download"/>
+    <parameter name="dynamicControl" value="dynamic_controls"/>
+    <parameter name="checkboxEndPoint" value="checkboxes"/>
+    <parameter name="javaScriptAlerts" value="javascript_alerts"/>
+    <parameter name="mousehovers" value="hovers"/>
+    <parameter name="iframe" value="iframe"/>
+    <parameter name="javaScriptError" value="javascript_error"/>
+    <parameter name="contextMenuEndPoint" value="context_menu"/>
+    <parameter name="dynamicLoading" value="dynamic_loading/2"/>
+    <classes>
+      <class name="Testcases.NotificationMessageTestcase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="notificationMessageFunctionality"/>
+          <include name="initializationMethod"/>
+        </methods>
+      </class> <!-- Testcases.NotificationMessageTestcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
